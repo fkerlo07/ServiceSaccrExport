@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property name="HOME_LOG" value="app.log"/>
+  <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+  <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- daily rollover -->
+      <fileNamePattern>logs/logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <!-- keep 7 days' worth of history capped at 3GB total size -->
+      <maxHistory>7</maxHistory>
+      <totalSizeCap>3GB</totalSizeCap>
+    </rollingPolicy>
+  </appender>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  <root level="info">
+    <appender-ref ref="FILE-ROLLING" />
+  </root>
+  <root level="info">
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>

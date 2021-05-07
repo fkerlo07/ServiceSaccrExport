@@ -1,0 +1,81 @@
+00:01:24.402 [http-nio-8086-exec-8] INFO  f.s.s.export.service.ExportService - Start
+00:01:24.406 [http-nio-8086-exec-8] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:01:24.406 [http-nio-8086-exec-8] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:01:24.427 [http-nio-8086-exec-8] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:01:24.610 [http-nio-8086-exec-8] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+00:06:59.689 [http-nio-8086-exec-1] INFO  f.s.s.export.service.ExportService - Start
+00:06:59.689 [http-nio-8086-exec-1] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:06:59.689 [http-nio-8086-exec-1] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:06:59.714 [http-nio-8086-exec-1] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:06:59.915 [http-nio-8086-exec-1] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+00:07:37.632 [http-nio-8086-exec-2] INFO  f.s.s.export.service.ExportService - Start
+00:07:37.632 [http-nio-8086-exec-2] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:07:37.632 [http-nio-8086-exec-2] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:07:37.642 [http-nio-8086-exec-2] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:07:37.814 [http-nio-8086-exec-2] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+00:17:10.439 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+00:17:10.476 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+00:17:10.477 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:17:10.637 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:17:18.411 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+00:17:18.422 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Starting ServiceSaccrExportApplication using Java 15.0.1 on WCZFK250014-ZU2 with PID 41164 (C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport\target\classes started by fk250014 in C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport)
+00:17:18.423 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - The following profiles are active: dev
+00:17:19.461 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+00:17:19.470 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+00:17:19.471 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:17:19.471 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+00:17:19.558 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:17:19.558 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1079 ms
+00:17:19.905 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:17:20.087 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+00:17:20.118 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+00:17:20.127 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Started ServiceSaccrExportApplication in 2.051 seconds (JVM running for 5.4)
+00:17:27.061 [http-nio-8086-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:17:27.061 [http-nio-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:17:27.062 [http-nio-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:17:27.223 [http-nio-8086-exec-1] INFO  f.s.s.export.service.ExportService - Start
+00:17:27.228 [http-nio-8086-exec-1] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:17:27.228 [http-nio-8086-exec-1] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:17:27.229 [http-nio-8086-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:17:27.672 [http-nio-8086-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class com.teradata.jdbc.jdk6.JDK6_FastExportManager_Connection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+00:17:27.810 [http-nio-8086-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:17:27.814 [http-nio-8086-exec-1] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:17:27.942 [http-nio-8086-exec-1] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+00:18:42.829 [http-nio-8086-exec-5] INFO  f.s.s.export.service.ExportService - Start
+00:18:42.829 [http-nio-8086-exec-5] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:18:42.829 [http-nio-8086-exec-5] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:18:42.839 [http-nio-8086-exec-5] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:18:42.915 [http-nio-8086-exec-5] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+00:19:22.829 [http-nio-8086-exec-6] INFO  f.s.s.export.service.ExportService - Start
+00:19:22.829 [http-nio-8086-exec-6] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:19:22.829 [http-nio-8086-exec-6] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:19:22.861 [http-nio-8086-exec-6] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:19:23.014 [http-nio-8086-exec-6] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+00:19:36.207 [http-nio-8086-exec-7] INFO  f.s.s.export.service.ExportService - Start
+00:19:36.208 [http-nio-8086-exec-7] INFO  f.s.s.e.repository.ExportRepository - 
+ Sample TestFastExport: 
+
+00:19:36.208 [http-nio-8086-exec-7] INFO  f.s.s.e.repository.ExportRepository -  Looking for the Teradata JDBC driver... 
+00:19:36.216 [http-nio-8086-exec-7] INFO  f.s.s.e.repository.ExportRepository -  connection successful. 
+
+00:19:36.276 [http-nio-8086-exec-7] ERROR f.s.s.e.repository.ExportRepository - SQL error during export:java.sql.SQLException: [Teradata Database] [TeraJDBC 17.00.00.03] [Error 3707] [SQLState 42000] SP_DYN_GET_CHS_SACCR_RES:Syntax error, expected something like a name or a Unicode delimited identifier between a string or a Unicode character literal and the integer '7'.
+03:49:25.894 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27s789ms768µs700ns).
+04:50:38.304 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m12s429ms548µs200ns).

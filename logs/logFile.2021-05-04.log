@@ -1,0 +1,45 @@
+09:53:25.529 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+09:53:25.541 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Starting ServiceSaccrExportApplication using Java 15.0.1 on WCZFK250014-ZU2 with PID 33384 (C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport\target\classes started by fk250014 in C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport)
+09:53:25.542 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - The following profiles are active: dev
+09:53:26.532 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:53:26.543 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:53:26.543 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:53:26.544 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+09:53:26.636 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:53:26.636 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1055 ms
+09:53:26.980 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:53:27.134 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:53:27.162 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:53:27.171 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Started ServiceSaccrExportApplication in 1.969 seconds (JVM running for 4.041)
+09:55:31.340 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+09:55:31.381 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+09:55:35.745 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+09:55:35.757 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Starting ServiceSaccrExportApplication using Java 15.0.1 on WCZFK250014-ZU2 with PID 17708 (C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport\target\classes started by fk250014 in C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport)
+09:55:35.758 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - The following profiles are active: dev
+09:55:36.560 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:55:36.568 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:55:36.568 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:55:36.568 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+09:55:36.641 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:55:36.641 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 845 ms
+09:55:36.869 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:55:37.023 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:55:37.051 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:55:37.060 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Started ServiceSaccrExportApplication in 1.608 seconds (JVM running for 2.388)
+09:56:12.258 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+09:56:12.289 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+09:57:33.645 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+09:57:33.657 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Starting ServiceSaccrExportApplication using Java 15.0.1 on WCZFK250014-ZU2 with PID 30820 (C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport\target\classes started by fk250014 in C:\Users\fk250014\SpringWorkspace\ServiceSaccrExport)
+09:57:33.658 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - The following profiles are active: dev
+09:57:34.489 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+09:57:34.498 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+09:57:34.498 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:57:34.499 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+09:57:34.576 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:57:34.577 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 875 ms
+09:57:34.813 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:57:34.972 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+09:57:34.999 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+09:57:35.007 [main] INFO  f.s.s.e.ServiceSaccrExportApplication - Started ServiceSaccrExportApplication in 1.667 seconds (JVM running for 2.495)
+09:58:26.756 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+09:58:26.788 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
